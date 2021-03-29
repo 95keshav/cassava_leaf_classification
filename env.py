@@ -1,5 +1,5 @@
 BASEPATH = 'data/'
-CSV = 'train.csv'
+CSV = 'data/train.csv'
 IMAGE_COUNT = 100
 FEATURES_FILE_NAME = 'features'
 FEATURES_PATH = f"{BASEPATH}{FEATURES_FILE_NAME}.npy"
