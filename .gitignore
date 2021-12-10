@@ -1,3 +1,11 @@
+#datafolder
+data/test_images
+data/train_images
+data/train_tfrecords
+data/test_tfrecords
+data/train.csv
+data/features_1000.npy
+data/labels_1000.npy
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
