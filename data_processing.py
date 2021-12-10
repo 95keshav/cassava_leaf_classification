@@ -16,10 +16,10 @@ for index, row in csv.iterrows():
     # print(f"Index: {index} ImageId: {row['image_id']}, label: {row['label']}")
     image = Image.open(f"{base_path}train_images\\{row['image_id']}")
     img_arr = np.array(image)
-    img_arr = img_arr.astype('float32')
+    img_arr = img_arr.astype("float32")
     img_arr /= 255
     x_data[index] = img_arr
-    y_data[index] = row['label']
+    y_data[index] = row["label"]
     # print(x_data)
     # print(y_data)
     if index >= image_count:
